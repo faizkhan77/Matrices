@@ -1,1 +1,25 @@
-# Matrices addition
+import numpy as np
+from numpy import random
+import time
+
+
+"""first matrix"""
+print("first")
+firstmatrix = random.randint(100, size=(3, 3))
+print(firstmatrix)
+print(" ")
+
+time.sleep(1)
+
+"""second matrix"""
+print("second")
+secmatrix = random.randint(100, size=(3, 3))
+print(secmatrix)
+print(" ")
+
+time.sleep(2)
+
+"""addition"""
+print("result")
+thirdmatrix = np.add(firstmatrix, secmatrix)
+print(thirdmatrix)
